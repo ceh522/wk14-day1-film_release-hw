@@ -1,5 +1,6 @@
 import React, { Fragment } from "react"
 import Release from "./Release"
+import "./ReleaseList.css"
 
 function ReleaseList({ releases }) {
 

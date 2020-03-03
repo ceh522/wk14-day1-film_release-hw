@@ -1,0 +1,8 @@
+.releases-box {
+  border: 2px purple;
+  border-style: inset;
+  font-family: fantasy;
+  background-color: ghost white;
+  padding: 1em;
+  width:350px;
+}

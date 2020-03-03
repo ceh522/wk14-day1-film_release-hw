@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReleaseList from "../components/ReleaseList"
+import "./ReleaseBox.css";
 
 class ReleaseBox extends Component {
 
@@ -38,7 +39,7 @@ class ReleaseBox extends Component {
 
   render() {
     return (
-      <article>
+      <article className = 'releases-box'>
       <h1>Upcoming Film Releases for UK</h1>
       <ReleaseList releases={this.state.releases}/>
       <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a>
